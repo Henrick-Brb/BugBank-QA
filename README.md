@@ -1,3 +1,5 @@
+![BugBank Automation](https://capsule-render.vercel.app/api?type=waving&height=300&color=A723DE&text=BugBank%20Automation&reversal=false&textBg=false&animation=fadeIn&fontAlignY=40&fontColor=FFFFFF&desc=Henrick%20Borba)
+
 # BugBank QA - Testes Automatizados com Playwright
 
 Este projeto foi desenvolvido aplicando os conhecimentos que adquiri durante minha atuação na CJ Tech, juntamente com os aprendizados obtidos em meus estudos diários por meio de cursos. Ele tem como objetivo automatizar os testes da aplicação [BugBank](https://bugbank.netlify.app/) utilizando o framework [Playwright](https://playwright.dev/). Os testes abrangem os principais fluxos de cadastro e login, validando mensagens de erro, regras de negócio e diferentes cenários de uso.
