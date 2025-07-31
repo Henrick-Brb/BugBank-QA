@@ -1,0 +1,9 @@
+| Ação                                                  | Resultado Esperado                                   |
+| ----------------------------------------------------- | ---------------------------------------------------- |
+| Tentar cadastrar sem preencher o nome                 | Exibir mensagem "Nome não pode ser vazio"            |✅
+| Tentar cadastrar sem preencher o email                | Exibir mensagem "Email não pode ser vazio"           |✅
+| Tentar cadastrar sem preencher a senha                | Exibir mensagem "Senha não pode ser vazio"           |✅
+| Tentar cadastrar sem preencher confirmação de senha   | Exibir mensagem "Confirmar senha não pode ser vazio" |✅
+| Tentar cadastrar com senhas diferentes                | Exibir mensagem de erro sobre senhas diferentes      |✅
+| Cadastrar com saldo ativado                           | Conta criada com saldo inicial de R$ 1.000,00        |✅
+| Cadastrar com saldo desativado                        | Conta criada com saldo inicial de R$ 0,00            |✅

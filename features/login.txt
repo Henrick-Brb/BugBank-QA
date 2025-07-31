@@ -1,0 +1,5 @@
+| Ação                                            | Resultado Esperado                                         |
+| ----------------------------------------------- | ---------------------------------------------------------- |
+| Tentar login com campos de email e senha vazios | Exibir mensagem "É campo obrigatório"                      |✅
+| Tentar login com usuário e senha inválidos      | Acesso negado, sem redirecionamento                        |✅
+| Tentar login com usuário e senha válidos        | Usuário é redirecionado para a página de home              |✅

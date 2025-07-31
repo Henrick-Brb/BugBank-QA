@@ -1,0 +1,6 @@
+fieldEmail,fieldName,fieldPassword,fieldConfirmPassword,toggleAddBalance
+,QA da Silva,QAtest123,QAtest123,true
+teste@teste.com,,QAtest123,QAtest123,true
+teste@teste.com,QA da Silva,,QAtest123,true
+teste@teste.com,QA da Silva,QAtest123,,true
+teste@teste.com,QA da Silva,QAtest123,QAtest321,true
