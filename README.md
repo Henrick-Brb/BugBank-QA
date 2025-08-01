@@ -43,6 +43,11 @@ tests/
 features/             # Documentação dos cenários de teste
 ```
 
+## Sobre o arquivo `.env`
+
+O arquivo `.env` foi incluído neste repositório por se tratar de um projeto de estudos, sem conter informações sensíveis.  
+No entanto, vale lembrar que **essa prática não é recomendada** em projetos reais, pois esse arquivo costuma armazenar dados confidenciais e deve ser adicionado ao `.gitignore`.
+
 ## Cenários de Teste Cobertos
 
 ### Login
