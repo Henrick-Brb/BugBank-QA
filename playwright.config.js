@@ -31,7 +31,11 @@ export default defineConfig({
   use: {
     /* Base URL to use in actions like `await page.goto('/')`. */
     // baseURL: 'http://localhost:3000',
-    
+
+    launchOptions: {
+      slowMo: 500
+    },
+
     // Gera vídeo e print da execução dos testes
     screenshot: 'only-on-failure',
     headless: true,

@@ -47,6 +47,7 @@ class bugbankRegisterSuccessPage {
     async closeButtom() {
         console.log('Clicking the close button');
         await this.closebuttom.click();
+        await expect(this.closebuttom).not.toBeVisible();
     }
 
     async loginValid(record) {
