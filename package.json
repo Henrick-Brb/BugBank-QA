@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "inspector mode": "set PWDEBUG=1 && npx playwright open"
+    "inspector mode": "set PWDEBUG=1 && npx playwright open",
+    "All Tests": "npx playwright test",
+    "Show Reports": "npx playwright show-report"
   },
   "keywords": [],
   "author": "",
