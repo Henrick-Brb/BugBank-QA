@@ -12,7 +12,10 @@ test.describe('Creating the account with and without credit', () => {
     /**
      * Antes de cada teste, navega para a tela de login do BugBank.
      */
-    test.beforeEach(async ({ page }) => {
+    test.beforeEach(async ({ page }, testInfo) => {
+        console.log(`TC: ${testInfo.title}`);
+        console.log('Starting tests...');
+        console.log(`Accessing URL: ${process.env.URL_BUGBANK}`);
         await page.goto(process.env.URL_BUGBANK);
     });
 
